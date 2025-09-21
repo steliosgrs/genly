@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genly"
+version = "0.0.1"
+description = "A data generator framework"
+readme = "README.md"
+authors = [
+    {name = "Stelios Georgaras", email = "steliosgp13@gmail.com"}
+]
+license = {text = "Apache License 2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "matplotlib>=3.10.0",
+    "numpy>=2.3.3",
+    "pandas>=2.3.2",
+    "pydantic>=2.11.9",
+    "pyarrow>=21.0.0",
+]
+requires-python = ">=3.11"
+
+[project.urls]
+"Homepage" = "https://github.com/steliosgrs/streamlit-state-manager"
+"Bug Tracker" = "https://github.com/steliosgrs/streamlit-state-manager/issues"
